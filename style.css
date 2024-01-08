@@ -1,0 +1,94 @@
+*{
+    margin: 10;
+    padding: 50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100;
+    background-color: black;
+    height: 100vh;
+
+   
+}
+**{
+  margin: 20%;
+  padding: 20%;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav
+{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    padding: 20px 0;
+    align-item: center;
+    justify-content: space-between;
+
+}
+nav ul li
+{
+    display:inline-block;
+    list-style: none;
+    marigin: 10px 20px;
+
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1
+{
+    font-size: 50px;
+    color: orangered;
+    margin-top: 20px;
+
+}
+.detel h2
+{
+    font-size: 30px;
+    color: white;
+    margin-top: 0%;
+
+}
+
+.detel p1
+{
+    color:white;
+    
+
+}
+
+.hamburger-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 100%;
+    height: 4px;
+    background-color:white;
+  }
+  .social-icons {
+    position: relative;
+  center: 30px;
+  left: 20px;
+  width: 30px;
+  display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
